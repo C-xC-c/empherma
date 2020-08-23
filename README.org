@@ -1,0 +1,7 @@
+* Ephemera
+Half finished internet radio station for ephemeral tracks. The general
+idea is that tracks are uploaded by the user visiting
+=public/index.html=, which are processed into tracks usable by =ices=,
+and streamed to the user with =icecast=.
+
+Run with =node index.js=.

@@ -1,0 +1,16 @@
+{
+  "name": "ephemera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "AGPL",
+  "dependencies": {
+    "chokidar": "^3.4.2",
+    "formidable": "^1.2.2",
+    "ws": "^7.3.1"
+  }
+}

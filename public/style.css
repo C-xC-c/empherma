@@ -1,0 +1,64 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color:#000;
+}
+
+#wrapper {
+	flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+	margin: 0;
+  padding: 0;
+}
+
+#big-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	padding: 1% 2%;
+	align-items: center !important;
+  display: flex;
+  flex-wrap: wrap;
+	pointer-events: none;
+}
+
+#header {
+	background-color: purple;
+	top: 0;
+	left: 0;
+}
+
+#draggable {
+	top: 0;
+	left: 0;
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+	pointer-events: auto;
+	border: 1px solid white;
+	background: rgba(0,0,0,0.5);
+	padding: 2px;
+	color: white;
+}
+
+#drag-header {
+	padding: 3px 5px;
+	border: 1px solid white;	
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+	cursor: default;
+}
+
+#songs {
+	float: right;
+}
